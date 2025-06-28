@@ -19,6 +19,7 @@ pnpm-debug.log*
 lerna-debug.log*
 logs
 *.log
+.vite
 
 # backups or swap files
 *.sw?
