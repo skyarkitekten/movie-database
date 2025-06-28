@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Navbar from './Navbar.jsx'
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY
 
@@ -24,7 +25,8 @@ function App() {
   }
 
   return (
-    <div className="container">
+    <div className="container mx-auto p-4">
+      <Navbar />
       <h1>Movie Search</h1>
       <form onSubmit={handleSearch} className="search-form flex gap-2 mb-4">
         <input
