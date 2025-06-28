@@ -23,7 +23,15 @@ This project was created to demonstrate how to build a simple movie database app
 ## Technologies Used
 
 - React 19
-- Tailwind 4
+- Vite 7
 - TMDB API
 - Axios for HTTP requests
 - CSS for styling
+- Tailwind CSS 4
+
+## Development
+
+1. Install dependencies with `npm install`.
+2. Copy `.env.example` to `.env` and add your TMDB API key.
+3. Start the development server with `npm run dev`.
+4. Tailwind CSS is preconfigured; styles are compiled automatically during development.

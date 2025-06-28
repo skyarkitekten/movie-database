@@ -1,5 +1,8 @@
 # dependencies
-/node_modules
+node_modules/
+
+# build artifacts
+/dist-ssr
 
 # production
 /build
@@ -13,6 +16,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
+logs
+*.log
+
+# backups or swap files
+*.sw?
+
+# local environment overrides
+*.local
 
 # testing
 /coverage

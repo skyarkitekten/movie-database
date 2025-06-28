@@ -8,3 +8,6 @@ The manifest is a list of all the steps used to build the project.
   - Used **GitHub Copilot** to generate the `.gitignore` file.
 - Created `README.md` file to document the project.
   - Co-authored with **GitHub Copilot** to provide a detailed project description.
+- Bootstrapped the React application using Vite.
+- Fixed the manifest filename typo.
+- Moved the React application files to the project root.

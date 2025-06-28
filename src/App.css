@@ -1,0 +1,15 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.results {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  margin-bottom: 0.5rem;
+}
