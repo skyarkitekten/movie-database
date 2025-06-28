@@ -1,0 +1,8 @@
+.results {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  margin-bottom: 0.5rem;
+}
